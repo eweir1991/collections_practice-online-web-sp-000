@@ -1,7 +1,7 @@
 nums = [25, 7, 1]
 
-def sort_array_asc
-  sort_array_asc.sort do |a, b|
+def sort_array_asc(nums)
+  nums.sort do |a, b|
   if a == b
     0
   elsif a < b
